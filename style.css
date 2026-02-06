@@ -14,8 +14,8 @@
 
 .box2 .content {
   font-family: sans-serif;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 100;
 }
 
 /*-------------------------------boks 3--------------------------------*/
@@ -29,7 +29,9 @@
 /*-------------------------------boks 4--------------------------------*/
 
 .box4 .content {
-  /*Her styles teksten*/
+  color: red;
+  font-size: 21px;
+  text-transform: uppercase;
 }
 
 /*-------------------------------boks 5--------------------------------*/
@@ -43,7 +45,10 @@
 }
 
 .box5 .content {
-  /*Her skriver du koden og bruger fonten (minFont)*/
+  font-family: minFont, sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  color: orange;
 }
 
 /*-------------------------------boks 6--------------------------------*/
@@ -59,7 +64,12 @@
 /*-------------------------------boks 7--------------------------------*/
 
 .box7 .content {
-  /*Her bruger du fonten (husk at linke til google-fonten i head i din html)*/
+  font-family: krona-one-regular;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(78, 135, 240);
+  font-size: 40px;
 }
 
 /*-------------------------------boks 8--------------------------------*/
@@ -71,27 +81,36 @@
 /*-------------------------------boks 9--------------------------------*/
 
 .box9 .content {
-  /*Her styles teksten*/
+  background-color: rgb(175, 242, 103);
+  font-size: 20px;
+  line-height: 2;
 }
 
 /*-------------------------------boks 10--------------------------------*/
 
 .box10 .content {
-  /*Her styles teksten*/
+  font-size: 18px;
+  letter-spacing: 2px;
+  background-color: rgb(191, 238, 223);
 }
 
 /*-------------------------------boks 11--------------------------------*/
 
 .box11 .content a {
-  /*Her styles dit link*/
+  color: rgb(246, 116, 23);
+  font-weight: bolder;
+  text-decoration: solid;
 }
 
 /*-------------------------------boks 12--------------------------------*/
 
 .box12 .content {
-  /*Her indsættes baggrundsbillede vha. background-image og background-size */
+  background-image: url(bg_images/himmel.jpeg);
+  background-size: cover;
 
-  /*Her styles teksten*/
+  font-size: 30px;
+  color: rgba(207, 8, 8, 0.91);
+  font-weight: bolder;
 }
 
 /*-------------------------------boks 13--------------------------------*/
